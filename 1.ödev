@@ -1,20 +1,20 @@
 fun main() {
     // Değişkenler 
-    val sehir = "İstanbul"
+    val sehir = "Antalya"
     val ulke = "Türkiye"
     val telefon = "+90 555 555 55 55"
-    val postaKodu = "34000"
-    val email = "example@example.com"
+    val postaKodu = "07500"
+    val email = "example@kotlin.com"
     val meslek = "Bilgisayar Mühendisi"
-    val stokMiktari = 150
-    val musteriAdi = "Ahmet Yılmaz"
-    val bakiye = 2500.75
+    val stokMiktari = 999
+    val musteriAdi = "Ahmet Github"
+    val bakiye = 2800.75
     val dogumGunu = "01.01.2000"
     val maas = 20000
     val medeniDurum = "Bekar"
     val urunYorum = "Ürün çok kaliteli."
 
-    val odemeTarihi = "27.04.2025"
+    val odemeTarihi = "25.04.2025"
     val odeme = 500.0
     val siparisAdeti = 3
     val arabaModeli = "Tesla Model 3"
