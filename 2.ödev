@@ -8,7 +8,7 @@ fun dikdortgenCevre(kenar1: Int, kenar2: Int): Int {
     return 2 * (kenar1 + kenar2)
 }
 
-// Faktöriyel hesaplayan metod
+// Faktöriyel hesapla
 fun faktoriyel(sayi: Int): Int {
     var sonuc = 1
     for (i in 1..sayi) {
@@ -17,12 +17,12 @@ fun faktoriyel(sayi: Int): Int {
     return sonuc
 }
 
-// 4. Kelime içinde kaç adet 'a' harfi var?
+// Kelime içinde kaç adet 'a' harfi var?
 fun aHarfiSayisi(kelime: String): Int {
     return kelime.count { it == 'a' || it == 'A' }
 }
 
-// Çokgenin iç açıları toplamını hesaplama
+// Çokgenin iç açıları toplamını hesapla
 fun icAcilarToplami(kenarSayisi: Int): Int {
     return (kenarSayisi - 2) * 180
 }
